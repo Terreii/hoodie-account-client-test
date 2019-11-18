@@ -1,0 +1,20 @@
+{
+  "name": "pouchdb-v7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify main.js -o public/bundle.js",
+    "prestart": "npm run build",
+    "start": "hoodie --port 8081"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hoodie/client": "git+https://github.com/PiTomar/hoodie-client.git",
+    "browserify": "^16.5.0",
+    "hoodie": "^28.2.10",
+    "pouchdb": "^7.1.1"
+  }
+}

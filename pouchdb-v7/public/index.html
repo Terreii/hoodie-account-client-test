@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hoodie Client text PouchDB v7</title>
+  <script src="./bundle.js" async defer></script>
+</head>
+<body>
+  <form>
+    <input type="text" name="username" id="username" placeholder="username" />
+    <input type="password" name="password" id="password" placeholder="password" />
+
+    <button id="signup">sign up</button>
+    <button id="signin">sign in</button>
+
+    <div id="accountOut"></div>
+  </form>
+
+  <form id="addDoc" style="margin: 2rem 0;">
+    <input type="text" name="textInput" id="textInput" placeholder="add a todo" />
+    <button>add</button>
+  </form>
+
+  <div id="output"></div>
+</body>
+</html>
